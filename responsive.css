@@ -1,0 +1,17 @@
+/* banner section responsive with media queries */
+/* mobile device */
+@media screen and (max-width:576px) {
+    .nav{
+        flex-direction: column;
+    }
+    .container{
+        width: 100%;
+    }
+    .banner-content{
+        width: 100%;
+    }
+    .banner-img img{
+        width: 100%;
+    }
+    
+}
