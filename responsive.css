@@ -1,7 +1,7 @@
 /* banner section responsive with media queries */
 /* mobile device */
 @media screen and (max-width:576px) {
-    .nav, .teams-wrapper, .features-wrapper{
+    .nav, .teams-wrapper, .features-wrapper, .some-facts-wrapper{
         flex-direction: column;
     }
     .container{
@@ -38,5 +38,8 @@
     }
     .features-wrapper{
         gap: 2rem;
+    }
+    .some-facts{
+        margin-top: 130px;
     }
 }
