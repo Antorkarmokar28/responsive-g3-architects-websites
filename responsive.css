@@ -1,7 +1,7 @@
 /* banner section responsive with media queries */
 /* mobile device */
 @media screen and (max-width:576px) {
-    .nav{
+    .nav, .teams-wrapper{
         flex-direction: column;
     }
     .container{
@@ -13,5 +13,11 @@
     .banner-img img{
         width: 100%;
     }
-    
+    .teams-img-inner{
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+    .teams-content-inner{
+        width: 100%;
+    }
 }
