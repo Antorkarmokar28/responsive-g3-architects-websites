@@ -187,3 +187,44 @@ section{
     font-size: 1.5rem;
     font-weight: 500;
 }
+/* some facts section style */
+.some-facts-title{
+    color: #131313;
+    font-size: 2.75rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+.some-facts-description{
+    color: #727272;
+    font-size: 1rem;
+    line-height: 26px;
+    font-weight: 400;
+    margin-bottom: 5rem;
+}
+.some-facts-wrapper{
+    display: flex;
+    justify-content: space-around;
+}
+.some-facts-inner{
+    border: 1px solid #FF900E;
+    padding: 2.5rem;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.facts-content h2{
+    text-align: center;
+    margin-top: 6px;
+    color: #424242;
+    font-size: 2.75rem;
+    font-weight: 600;
+}
+.facts-content p{
+    text-align: center;
+    margin-top: 6px;
+    color: #727272;
+    font-size:1.25rem;
+    font-weight: 600;
+}
