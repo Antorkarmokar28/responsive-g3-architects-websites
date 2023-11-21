@@ -21,6 +21,9 @@
     font-weight: 600;
     cursor: pointer;
 }
+section{
+    margin-top: 90px;
+}
 /* header style */
 .header{
     background-color: rgba(255, 144, 14, 0.10);
@@ -77,4 +80,40 @@
 .banner-img img{
     margin-top: 1.5rem;
     width: 100%;
+}
+/* teams section style */
+.teams-wrapper{
+    display: flex;
+    gap: 70px;
+    align-items: center;
+}
+.teams-img-inner{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    width: 50%;
+}
+.teams-img-inner img{
+    width: 100%;
+}
+.teams-content-inner{
+    width: 50%;
+}
+.teams-title{
+    color: #727272;
+    font-size: 3.75rem;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+.teams-title-black{
+    color: #131313;
+}
+.teams-title-orange{
+    color: #FF900E;
+}
+.teams-description{
+    color: #727272;
+    line-height: 26px;
+    font-size: 1rem;
+    margin-bottom: 2rem;
 }
