@@ -251,3 +251,18 @@ section{
 .our-sponspors-incon-inner img{
     width: 100%;
 }
+.footer{
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+#footer-container{
+    background-color: #FFF4E7;
+    padding: 38px 0px;
+    border-radius: 0.5rem;
+}
+.footer-content{
+    color: #424242;
+    font-size: 1.25rem;
+    text-align: center;
+    font-weight: 400;
+}
