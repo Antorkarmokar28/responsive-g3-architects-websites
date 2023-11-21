@@ -117,3 +117,73 @@ section{
     font-size: 1rem;
     margin-bottom: 2rem;
 }
+/* features section style */
+.features-wrapper{
+    display: flex;
+    gap: 140px;
+}
+.features-content-inner{
+    width: 50%;
+}
+.features-section-title{
+    color: #131313;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    border-left: 6px solid #FF900E;
+    padding-left: 1.25rem;
+}
+.features-section-description{
+    color: #727272;
+    line-height: 26px;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+}
+.features-card{
+    padding: 16px 16px;
+    margin-bottom: 1.5rem;
+    box-shadow: 2px 11px 12px 0px #00000014;
+    border-radius: 0.5rem;
+}
+.eatures-sub-title{
+    color: #131313;
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.features-sub-description{
+    color: #727272;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.features-img-inner{
+    width: 50%;
+    position: relative;
+}
+.features-img-inner img{
+    width: 100%;
+}
+.experience-inner{
+    position: absolute;
+    top: 76%;
+    left: -18%;
+    width: 301px;
+    height: 171px;
+    background-color: #FF900E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 0.5rem;
+}
+.experience-inner h1{
+    color: #FFF;
+    font-size: 4rem;
+    font-weight: 700;
+}
+.experience-inner p{
+    color: #FFF;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
