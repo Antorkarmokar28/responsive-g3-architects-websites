@@ -1,7 +1,7 @@
 /* banner section responsive with media queries */
 /* mobile device */
 @media screen and (max-width:576px) {
-    .nav, .teams-wrapper{
+    .nav, .teams-wrapper, .features-wrapper{
         flex-direction: column;
     }
     .container{
@@ -19,5 +19,24 @@
     }
     .teams-content-inner{
         width: 100%;
+    }
+    .features-content-inner{
+        width: 100%;
+    }
+    .features-img-inner{
+        width: 100%;
+    }
+    .features-img-box{
+        width: 100%;
+    }
+    .features-img-box img{
+        width: 100%;
+    }
+    .experience-inner{
+        left: 13px;
+        top: 84%;
+    }
+    .features-wrapper{
+        gap: 2rem;
     }
 }
